@@ -31,7 +31,12 @@ export default function Home() {
          <metadata/>
         
       </Head>     
- <main className='bg-slate-300 font-medium px-10 dark:bg-gray-800 dark:text-slate-200'>
+
+
+ <main className='
+ dark:bg-gradient-to-tr dark:from-neutral-900 dark:to-slate-700 
+ bg-gradient-to-tr from-sky-700 to-neutral-300 
+ font-medium px-10 dark:text-slate-200'>
 
   <section className='min-h-screen '>
 
@@ -49,7 +54,7 @@ export default function Home() {
     </nav>
      
      <div className='text-center p-10'>
-      <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl rounded-lg'>Emir Murat</h2>
+      <h2 className='text-5xl py-2   text-teal-800 dark:text-teal-600 font-medium md:text-6xl rounded-lg'>Emir Murat</h2>
       <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Yazılım Mühendisi</h3>
       <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Bana aşağıdan ulaşabilirsiniz</p>
      </div>
@@ -64,8 +69,8 @@ export default function Home() {
 
 
     </div>
-    <div className=' flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 flex items-center    overflow-hidden md:h-96 md:w-96 '>
-   <Image src={deved}  className='min-w-full mt-5' />
+    <div className=' mt-10  relative min-w-sm flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 flex items-center    overflow-hidden md:h-96 md:w-96 '>
+   <Image src={deved}  className='min-w-full  ' />
     </div>
  
 
@@ -80,11 +85,11 @@ export default function Home() {
 
   <section>
   
-    <div className='items-center text-center -mt-32 '>
+    <div className='items-center text-center 3xl:-mt-72 '>
       <div className=''>
-      <h3 className='text-3xl py-1  dark:text-slate-200 '>Skills</h3>
+      <h3 className='text-3xl py-1  dark:text-slate-200  '>Skills</h3>
       <p className='text-md mt-5 py-2 leading-8 text-gray-800 dark:text-slate-200'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum officiis <span className='text-teal-500'>minus,</span> magni similique molestiae delectus <span className='text-teal-500'>minus,</span> quisquam blanditiis officia repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum officiis <span className='text-neutral-950 dark:text-teal-600 font-extrabold'>minus,</span> magni similique molestiae delectus <span className='text-neutral-950 dark:text-teal-600 font-extrabold'>minus,</span> quisquam blanditiis officia repellendus.
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -93,7 +98,7 @@ export default function Home() {
     </div>
 
 
-    <div className="lg:flex gap-10 dark:text-slate-200 ">
+    <div className="lg:flex gap-10 dark:text-slate-200  ">
             {/* <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-700 flex-1">
               <Image src={design} width={100} height={100} className='mx-auto' />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -119,7 +124,7 @@ export default function Home() {
               <p className="py-2">
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, aperiam incidunt minus perspiciatis beatae autem.
               </p>
-              <h4 className="py-4 text-teal-600">Languages</h4>
+              <h4 className="py-4 text-neutral-800 font-extrabold text-xl dark:text-teal-600">Languages</h4>
               <p className=" py-1">Javascript</p>
               <p className=" py-1">React</p>
               <p className=" py-1">NextJs</p>

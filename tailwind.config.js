@@ -7,6 +7,8 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+
+
     extend: {
       fontFamily:{
   burtons:"burtons"
