@@ -14,6 +14,7 @@ import web3 from '../../public/web3.png'
 import web4 from '../../public/web4.png'
 import web5 from '../../public/web5.png'
 import web6 from '../../public/web6.png'
+import {SiGmail} from 'react-icons/si'
 import  {useState}  from 'react';
 export default function Home() {
 
@@ -30,7 +31,7 @@ export default function Home() {
          <metadata/>
         
       </Head>     
- <main className='bg-white px-10 dark:bg-gray-800 dark:text-slate-200'>
+ <main className='bg-slate-200 px-10 dark:bg-gray-800 dark:text-slate-200'>
 
   <section className='min-h-screen '>
 
@@ -41,8 +42,9 @@ export default function Home() {
         <li> 
            <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-gray-100  text-gray-800'/>
           </li>
-        <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 ' >Resume</a></li>
 
+        <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 ' >Resume</a></li>
+  
       </ul>
     </nav>
      
@@ -54,8 +56,9 @@ export default function Home() {
     
 
     <div className='text-5xl flex justify-center gap-8 py-3 text-gray-800'>
-      <AiFillLinkedin className='dark:text-slate-200'/>
-      <AiFillGithub className='dark:text-slate-200' />
+       <SiGmail className='dark:text-slate-200 cursor-pointer '/>
+      <AiFillLinkedin className='dark:text-slate-200 cursor-pointer'/>
+      <AiFillGithub className='dark:text-slate-200 cursor-pointer'/>
 
 
     </div>
@@ -75,7 +78,7 @@ export default function Home() {
 
   <section>
   
-    <div className='items-center text-center -mt-32'>
+    <div className='items-center text-center -mt-32 '>
       <div className=''>
       <h3 className='text-3xl py-1  dark:text-slate-200 '>Skills</h3>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
@@ -88,7 +91,7 @@ export default function Home() {
     </div>
 
 
-    <div className="lg:flex gap-10 dark:text-slate-200">
+    <div className="lg:flex gap-10 dark:text-slate-200 ">
             {/* <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-700 flex-1">
               <Image src={design} width={100} height={100} className='mx-auto' />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -106,7 +109,7 @@ export default function Home() {
             </div> */}
 
 
-            <div className="mx-auto text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-700 flex-6 max-w-md  ">
+            <div className="mx-auto text-center shadow-lg p-10 rounded-xl my-10 bg-slate-400 dark:bg-slate-700 flex-6 max-w-md  ">
               <Image src={code} width={100} height={100} className='mx-auto' />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code 
