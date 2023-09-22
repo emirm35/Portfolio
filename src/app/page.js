@@ -86,7 +86,7 @@ export default function Home() {
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum officiis <span className='text-teal-500'>minus,</span> magni similique molestiae delectus <span className='text-teal-500'>minus,</span> quisquam blanditiis officia repellendus.
       </p>
-      <p className='text-md py-2 leading-8 max-w-md text-gray-800 dark:text-slate-200'>
+      <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
       </div>
