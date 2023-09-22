@@ -31,7 +31,7 @@ export default function Home() {
          <metadata/>
         
       </Head>     
- <main className='bg-slate-200 px-10 dark:bg-gray-800 dark:text-slate-200'>
+ <main className='bg-slate-300 font-medium px-10 dark:bg-gray-800 dark:text-slate-200'>
 
   <section className='min-h-screen '>
 
@@ -40,7 +40,7 @@ export default function Home() {
 
       <ul className='flex items-center'>
         <li> 
-           <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-gray-100  text-gray-800'/>
+           <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer sticky text-2xl dark:text-gray-100  text-gray-800'/>
           </li>
 
         <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 ' >Resume</a></li>
@@ -50,8 +50,8 @@ export default function Home() {
      
      <div className='text-center p-10'>
       <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl rounded-lg'>Emir Murat</h2>
-      <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, voluptas at.</h3>
-      <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Contact me below</p>
+      <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Yazılım Mühendisi</h3>
+      <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Bana aşağıdan ulaşabilirsiniz</p>
      </div>
     
 
@@ -64,8 +64,8 @@ export default function Home() {
 
 
     </div>
-    <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 flex items-center   mt-20 overflow-hidden md:h-96 md:w-96 '>
-   <Image src={deved} layout='fill' objectFit='cover' />
+    <div className=' flex justify-center mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 flex items-center    overflow-hidden md:h-96 md:w-96 '>
+   <Image src={deved}  className='min-w-full mt-5' />
     </div>
  
 
@@ -83,7 +83,7 @@ export default function Home() {
     <div className='items-center text-center -mt-32 '>
       <div className=''>
       <h3 className='text-3xl py-1  dark:text-slate-200 '>Skills</h3>
-      <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
+      <p className='text-md mt-5 py-2 leading-8 text-gray-800 dark:text-slate-200'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum officiis <span className='text-teal-500'>minus,</span> magni similique molestiae delectus <span className='text-teal-500'>minus,</span> quisquam blanditiis officia repellendus.
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-200'>
