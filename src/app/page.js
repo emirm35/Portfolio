@@ -51,12 +51,14 @@ export default function Home() {
      <div className='text-center p-10'>
       <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl rounded-lg'>Emir Murat</h2>
       <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, voluptas at.</h3>
-      <p className='text-md py-5 leading-8 text-gray-800 md:text-xl'>Contact me below</p>
+      <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Contact me below</p>
      </div>
     
 
     <div className='text-5xl flex justify-center gap-8 py-3 text-gray-800'>
-       <SiGmail className='dark:text-slate-200 cursor-pointer '/>
+    <a href="mailto:emirmrt35@gmail.com"><SiGmail className='dark:text-slate-200 cursor-pointer '/></a>
+
+
       <AiFillLinkedin className='dark:text-slate-200 cursor-pointer'/>
       <AiFillGithub className='dark:text-slate-200 cursor-pointer'/>
 
