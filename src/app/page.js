@@ -15,14 +15,20 @@ import web4 from '../../public/web4.png'
 import web5 from '../../public/web5.png'
 import web6 from '../../public/web6.png'
 import {SiGmail} from 'react-icons/si'
-import  {useState}  from 'react';
+import  {useEffect, useState}  from 'react';
 export default function Home() {
 
-  const [darkMode,setDarkMode] = useState(false);
+   const [darkMode,setDarkMode] = useState(false);
+
+
 
 
   console.log(darkMode);
   
+
+
+
+
 
 
   return (
@@ -34,8 +40,8 @@ export default function Home() {
 
 
  <main className='
- dark:bg-gradient-to-tr dark:from-neutral-900 dark:to-slate-700 
- bg-gradient-to-tr from-sky-700 to-neutral-300 
+  dark:bg-gradient-to-tr dark:from-neutral-900 dark:to-slate-700 
+ bg-gradient-to-tr from-cyan-950 to-neutral-300
  font-medium px-10 dark:text-slate-200'>
 
   <section className='min-h-screen '>
@@ -55,8 +61,8 @@ export default function Home() {
      
      <div className='text-center p-10'>
       <h2 className='text-5xl py-2   text-teal-800 dark:text-teal-600 font-medium md:text-6xl rounded-lg'>Emir Murat</h2>
-      <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Yazılım Mühendisi</h3>
-      <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Bana aşağıdan ulaşabilirsiniz</p>
+      <h3 className='text-2xl py-2 text-center max-w-xl mx-auto'>Frontend dev</h3>
+      <p className='text-md py-5 leading-8 dark:text-slate-200 text-gray-800 md:text-xl'>Contact Me</p>
      </div>
     
 
@@ -79,6 +85,8 @@ export default function Home() {
 
   </section>
   
+
+
 
 
 
@@ -116,7 +124,13 @@ export default function Home() {
             </div> */}
 
 
-            <div className="mx-auto text-center shadow-lg p-10 rounded-xl my-10 bg-slate-400 dark:bg-slate-700 flex-6 max-w-md  ">
+
+
+
+            <div className=" mx-auto text-center shadow-lg p-10 rounded-xl my-10
+             dark:bg-slate-400
+              bg-slate-400 bg-opacity-40
+              flex-6 max-w-md  ">
               <Image src={code} width={100} height={100} className='mx-auto' />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code 
